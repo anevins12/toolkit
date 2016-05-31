@@ -1,6 +1,7 @@
 @import 'sky-toolkit-core/all';
 @import 'sky-toolkit-ui/all';
 
+<<<<<<< HEAD
 /* ==========================================================================
    OBJECTS / CONTAINER
    ========================================================================== */
@@ -14,8 +15,11 @@
    padding-right: $global-spacing-unit;
    padding-left: $global-spacing-unit;
  }
+=======
+>>>>>>> 360d13a7ac64178b83c15f993891325bd758e2a0
 
 
+<<<<<<< HEAD
 /* ==========================================================================
    COMPONENTS / HEADER
    ========================================================================== */
@@ -23,11 +27,17 @@
 .c-header {
   display: block;
   padding: $global-spacing-unit $global-spacing-unit;
+=======
+.sg-header {
+  display: block;
+  padding: $global-spacing-unit-small;
+>>>>>>> 360d13a7ac64178b83c15f993891325bd758e2a0
   z-index: 5;
   background: color(white);
   box-shadow: $global-shadow;
 }
 
+<<<<<<< HEAD
 .c-header__title {
   color: color(text);
 
@@ -53,10 +63,14 @@
    ========================================================================== */
 
 .c-nav {
+=======
+.sg-menu {
+>>>>>>> 360d13a7ac64178b83c15f993891325bd758e2a0
   position: absolute;
   margin: 0;
   top: $global-spacing-unit-small;
   left: $global-spacing-unit-small;
+<<<<<<< HEAD
   z-index: 100;
   opacity: 0;
   transform-origin: $global-spacing-unit-small + 6px $global-spacing-unit + 6px;
@@ -188,6 +202,22 @@
       }
     }
   }
+=======
+}
+
+.sg-menu__link {
+  color: color(text);
+}
+
+.sg-menu__link.is-active {
+  font-weight: bold;
+}
+
+.sg-footer {
+  display: block;
+  margin-left: 0;
+  overflow: hidden;
+>>>>>>> 360d13a7ac64178b83c15f993891325bd758e2a0
 }
 
 /* Icons
