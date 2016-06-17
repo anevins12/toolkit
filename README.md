@@ -2,7 +2,11 @@
 
 # Toolkit
 
-Sky's web Toolkit.
+Sky's CSS Toolkit.
+
+See also [github.com/sky-uk/toolkit/wiki](https://github.com/sky-uk/toolkit/wiki).
+
+**Note**: The Toolkit is still in active development and not yet 100% stable. This means breaking updates may occur, minor issues and quirks may be present.
 
 ## Goals
 
@@ -15,8 +19,8 @@ Sky's web Toolkit.
 The project consists of 3 repositories: 
 
 - _this repo_: consumes the UI and Core layers and serves static pages
-- [Toolkit Core](https://github.com/sky-uk/toolkit-core): Global styles and defaults for all projects
-- [Toolkit UI](https://github.com/sky-uk/toolkit-ui): Aesthetic components following Polaris brand guidelines
+- [toolkit-core](https://github.com/sky-uk/toolkit-core): Global styles and defaults for all projects
+- [toolkit-ui](https://github.com/sky-uk/toolkit-ui): Aesthetic components following Polaris brand guidelines
 
 ## Versioning
 
@@ -24,33 +28,21 @@ The Toolkit follows [Semantic Versioning](http://semver.org) to help manage the 
 
 ## Getting Started & Documentation
 
-**Note**: The Toolkit is still in active development and not yet 100% stable. This means breaking updates may occur, minor issues and quirks may be present.
+Currently available Toolkit components are visible at: http://sky-uk.github.io/toolkit/
 
-**To support IE9+, you must include the following at the top of your `index.html`/ default view.**
-```
-<!DOCTYPE html>
-<!--[if IE 9 ]>               <html lang="en-GB" class="ie9 no-js"> <![endif]-->
-<!--[if gt IE 9 | !IE ]><!--> <html lang="en-GB" class="no-js"> <!--<![endif]-->
-<head>
-  ...
-```
-
-Currently available Toolkit components are available at: http://sky-uk.github.io/toolkit/
-
-See the wiki for:
-- how to [implement the Toolkit in your project](https://github.com/sky-uk/toolkit/wiki/Getting-started).
-- how to [get started working on GitHub pages](https://github.com/sky-uk/toolkit/wiki/GitHub-Pages).
+[See the Wiki](https://github.com/sky-uk/toolkit/wiki/) for full documenation and information on how to [implement the Toolkit](https://github.com/sky-uk/toolkit/wiki/Getting-started) in your project.
 
 ## Requirements
 
-Because of how the Toolkit loads third party dependencies such as `sass-mq`, NPM >3.0.0 is required (included in Node >v5.0.0).
+Because of how the Toolkit loads third party dependencies such as `sass-mq`, `npm` `>3.0.0` is required (included in `node` `>v5.0.0`).
 
-Also note that if you're using Webpack and sass-loader you also require sass-loader >3.1.0.
+If you're using `webpack` and `sass-loader`, you will need `sass-loader` >3.1.0.
 
 ## Maintainers
 
 - [Aaron Thomas](https://github.com/aaronthomas) - aaron.thomas@sky.uk
 - [Joe Bell](https://github.com/joebell93) - joseph.bell@sky.uk
+- [Joe Dinsdale](https://github.com/MrDinsdale) - joseph.dinsdale@sky.uk
 
 ## Contributors
 
@@ -62,5 +54,5 @@ Feel free to open a pull request to include yourself in this list.
 
 ## Contributing
 
-We appreciate any contribution to the Toolkit. Check out [CONTRIBUTING.md](CONTRIBUTING.md).
+We appreciate any contribution to the Toolkit, please check out [CONTRIBUTING.md](CONTRIBUTING.md).
 We keep a list of features and bugs [in the issue tracker](https://github.com/sky-uk/toolkit/issues).
